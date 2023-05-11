@@ -6,11 +6,13 @@
         {
             Driver.OpenPage("https://demo.seleniumeasy.com/dynamic-data-loading-demo.html");
         }
+
         public static void ClickGetNewUser()
         {
             string locator = "//*[@id='save']";
             Common.Click(locator);
         }
+
         public static string GetGeneratedUser()
         {
             string locator = "//*[@id='loading']";
