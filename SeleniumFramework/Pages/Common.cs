@@ -26,7 +26,7 @@ namespace SeleniumFramework.Pages
         {
             IWebElement element = GetElement(locator);
             bool isClickable = false;
-            int maxTries = 20;
+            int maxTries = 25;
             int currentTry = 0;
             while (!isClickable)
             {
